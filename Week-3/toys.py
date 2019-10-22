@@ -5,7 +5,7 @@ Simple toy functions to get comfortable working
 with functions.
 '''
 
-
+'''
 # write a function that adds 1
 # to the input and prints the result
 def inc(a):
@@ -50,4 +50,31 @@ def string_repeat(phrase, repeat):
     # hint: you can add strings together 
     # in order to concatenate them
     return
+
+'''
+
+def inc(a): 
+    a = a + 1
+    print(a)    
+inc(2)
+
+def inc_return(a):
+    return a + 1
+
+
+def sum(a,b):
+    c = a + b
+    return (c)
+
+def sum_inc(a,b):
+    return a + b
+
+print(inc_return(sum_inc(2,3)))
+
+def is_even(a):
+    if a % 2 == 0:
+        return 'truth'
+    else:
+        return 'false'
+print(is_even(5))
 
