@@ -38,9 +38,9 @@ def sum_inc(a, b):
 # the input number is even
 def is_even(a):
     if a % 2 == 0:
-        return 'Truth'
+        return True
     else:
-        return 'False'
+        return False
 
 
 # create for loop that takes a string
